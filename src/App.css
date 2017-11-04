@@ -1,0 +1,106 @@
+.App {
+ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.main-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  padding-left: 40px;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+  padding-left: 40px;
+  width: 500px;
+}
+
+.btn {
+  color:#ffffff;
+  background: blue;
+  padding: 10px;
+  border: 0px;
+  width: 120px;
+  font-weight: bold;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.modal-container {
+  position: fixed;
+  width: 290px;
+  border: 1px solid #000;
+  top:30%;
+  left:35%;
+  z-index: 99;
+  background: #ffffff;
+}
+
+.input-container {
+  height: 200px;
+  padding: 20px;
+  position: relative;
+}
+
+.modal-btn1 {
+  width: 50%;
+  background: #242461;
+  border:0px;
+  color:#fff;
+  font-weight: bold;
+  height: 40px;
+}
+
+.modal-btn2 {
+  width: 50%;
+  background: blue;
+  border:0px;
+  color:#fff;
+  font-weight: bold;
+  height: 40px;
+}
+
+.divider {
+  border-top:1px solid #e0e0e0;
+  min-height: 36px;
+  padding:20px;
+  padding-left: 0px;
+}
+
+.close-btn {
+  float: right;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.addTeamBtn {
+  background: none;
+  border: 0px;
+  color: blue;
+  bottom: 15px;
+  position: absolute;
+}
+
+.divider  div {
+  width: 50%;
+  display: inline-block;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
